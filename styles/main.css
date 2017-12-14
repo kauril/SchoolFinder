@@ -1,0 +1,163 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+@import url('base.css');
+
+
+#mapid { height: 60%; }
+
+body{
+  background-image: url("../images/helsinki2.jpg");
+  padding-top: 20px;
+}
+
+#header{
+  margin-bottom: 25px;
+}
+
+p{
+  margin: 1em 0 1em 0;
+}
+
+label{
+      margin-left: 5px;
+}
+
+
+#ex1Slider .slider-selection {
+  background: #BABABA;
+}
+
+.slider.slider-horizontal {
+  width: 100%;
+}
+
+#mapid{
+  z-index: 0;
+  margin-bottom: 1em;
+}
+
+#search{
+    background-color: white;
+    padding: 1em ;
+}
+
+#result .btn{
+  width: 100%;
+}
+
+#search .btn{
+  width: 100%;
+}
+
+#result{
+  display: none;
+  text-align: center;
+  background-color: white;
+  padding: 1em;
+}
+
+#result img{
+  display:block;
+    margin:auto;
+}
+
+div.col-md-3 {
+  padding-left: 15px; 
+}
+
+.toggleButtons{
+  width: 100%;
+  margin: 10 0 10 0;
+  text-align: left;
+}
+.container-fluid{
+  max-width:1200px;
+  margin: auto;
+}
+
+.btn{
+  margin-top: 20px;
+}
+
+#explanation{
+  
+  padding: 1em;
+  background-color: white;
+}
+
+#mapExplanations{
+  display: none;
+  text-align: center;
+}
+
+#mapExplanations img{
+  display:block;
+    margin:auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-left: 4px;
+}
+
+.routeButtons{
+  background-color: #9fc9eb;
+}
+
+
+
+
+/*@media (min-width: 1px) { 
+    #search{
+    background-color: white;
+    padding: 1em ;
+    width: 100%;
+}
+}
+
+
+@media (min-width: 768px) { 
+    #search{
+    background-color: white;
+    padding: 1em ;
+    width: 50%;
+}
+}
+
+@media (min-width: 922px) { 
+    #search{
+    background-color: white;
+    padding: 1em ;
+    width: 100%;
+}
+}*/
+
+
+
