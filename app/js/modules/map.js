@@ -11,7 +11,7 @@ const MapFunctions = {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
             maxZoom: 18,
             id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1Ijoia2F1cmlzIiwiYSI6ImNqODRkcTNweTA4b20ycXIzdDZxaDA4MzkifQ.gcoX_1uKdwYP-FUnb_yLsw'
+            accessToken: 'YOUR ACCESSTOKEN HERE'
         }).addTo(newMap);
 
         return newMap;
