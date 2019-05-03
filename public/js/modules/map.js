@@ -121,7 +121,7 @@ const MapFunctions = {
                 // Search and print languages that can be studied in selected school
 
                 for (let id of data.ontologytree_ids) {
-                   Functions.httpGetAsync('http://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
+                   Functions.httpGetAsync('https://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
                 }
 
                 marker.on('mouseover', (e) => {
@@ -168,7 +168,7 @@ const MapFunctions = {
                     // Search and print languages that can be studied in selected school
 
                     for (let id of data.ontologytree_ids) {
-                        Functions.httpGetAsync('http://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
+                        Functions.httpGetAsync('https://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
                     }
 
 
@@ -223,7 +223,7 @@ const MapFunctions = {
 
 
                     for (let id of data.ontologytree_ids) {
-                        Functions.httpGetAsync('http://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
+                        Functions.httpGetAsync('https://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
                     }
                 });
 
@@ -276,7 +276,7 @@ const MapFunctions = {
 
 
                     for (let id of data.ontologytree_ids) {
-                        Functions.httpGetAsync('http://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
+                        Functions.httpGetAsync('https://www.hel.fi/palvelukarttaws/rest/v4/ontologytree/' + id, Functions.processOntologyWords);
                     }
                 });
             }

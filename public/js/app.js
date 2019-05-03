@@ -190,7 +190,7 @@ geocodeAddress = () => {
         //range value is stored into a variable
 
         const range = slider.getValue();
-        const url = 'http://www.hel.fi/palvelukarttaws/rest/v4/unit/?lat=' + result[0].latitude + '&lon=' + result[0].longitude + '&distance=' + range * 1000;
+        const url = 'https://www.hel.fi/palvelukarttaws/rest/v4/unit/?lat=' + result[0].latitude + '&lon=' + result[0].longitude + '&distance=' + range * 1000;
 
         //Ajax call is made to servicemap API with URL including desired range and coordinates of user input
         Functions.httpGetAsync(url, Functions.processResult);
