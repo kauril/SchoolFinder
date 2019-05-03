@@ -1,3 +1,4 @@
+require('dotenv').config()
 ////////////////////// GENERAL MAP FUNCTIONS
 
 const MapFunctions = {
