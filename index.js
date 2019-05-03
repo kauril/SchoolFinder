@@ -1,6 +1,9 @@
 const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
+require('dotenv').config()
+
+console.log(process.env.accesstoken)
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
