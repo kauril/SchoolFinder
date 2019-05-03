@@ -182,7 +182,7 @@ const ReittiOpas = {
 
                         // Uncheckin other route checkboxes
                         for (let checkBox of document.getElementsByClassName('showRouteCheckbox')) {
-                            //console.log(checkBox)
+                            
                             if (checkBox != showRoute) {
                                 checkBox.checked = false;
                             }
@@ -230,7 +230,7 @@ const ReittiOpas = {
 
                             //Map boundaries are fitted to polylines
                             map.fitBounds(group.getBounds());
-                            //console.log(encodedPolyline.legGeometry.points)
+                            
                         }
                     } else {
                         //If checkbox is unchecked route polylines are removed from the map
