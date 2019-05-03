@@ -1,4 +1,3 @@
-
 ////////////////////// GENERAL MAP FUNCTIONS
 
 const MapFunctions = {
@@ -13,7 +12,7 @@ const MapFunctions = {
             maxZoom: 18,
             crossOrigin: null,
             id: 'mapbox.streets',
-            accessToken: process.env.accesstoken
+            accessToken: 'pk.eyJ1Ijoia2F1cmlzIiwiYSI6ImNqdXh4cWlsZzBiaWY0ZG5yMnBtZGttbjMifQ.jWGC5H_UMpdzSjBk_Z17aQ'
         }).addTo(newMap);
 
         return newMap;
