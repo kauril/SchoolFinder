@@ -12,7 +12,7 @@ const MapFunctions = {
             maxZoom: 18,
             crossOrigin: null,
             id: 'mapbox.streets',
-            accessToken: 'pk.eyJ1Ijoia2F1cmlzIiwiYSI6ImNqdXh4cWlsZzBiaWY0ZG5yMnBtZGttbjMifQ.jWGC5H_UMpdzSjBk_Z17aQ'
+            accessToken: process.env.accesstoken
         }).addTo(newMap);
 
         return newMap;
