@@ -277,7 +277,7 @@ const Functions = {
         //(In same cases local school might be further than 1 km away and if user set range to 1km local shool wont be found)
 
         if (!localSchoolFound) {
-            const url = 'http://www.hel.fi/palvelukarttaws/rest/v4/unit/?search=' + localSchoolName;
+            const url = 'https://www.hel.fi/palvelukarttaws/rest/v4/unit/?search=' + localSchoolName;
             if (localSchoolNotFound) {
 
             	//Second round stops here. If school is still not found user will be informed
