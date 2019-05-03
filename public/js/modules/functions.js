@@ -209,6 +209,8 @@ const Functions = {
 
     httpGetAsync: (theUrl, callback) => {
 
+        console.log(theUrl)
+
         const xmlHttp = new XMLHttpRequest();
 
 
