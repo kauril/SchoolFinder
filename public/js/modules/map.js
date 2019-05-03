@@ -205,7 +205,7 @@ const MapFunctions = {
                     //Remowing old reittiopas polylines from the map 
 
                     for (polyline of polylines) {
-                        console.log('remooowwiniwniw')
+                        
                         map.removeLayer(polyline);
                     }
 
