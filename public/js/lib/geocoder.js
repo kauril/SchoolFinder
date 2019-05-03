@@ -158,7 +158,7 @@ if (function(a, b) {
             });
         }
         function f(a, b) {
-            var d, e = new XMLHttpRequest(), f = g.options.protocol + "://" + g.options.host + "/" + g.options.pathname + "?", h = [];
+            var d, e = new XMLHttpRequest(), f = "https" + "://" + g.options.host + "/" + g.options.pathname + "?", h = [];
             a.JSONPCallback && (d = a.JSONPCallback, delete a.JSONPCallback, a[d] = c(b));
             for (var i in a) a.hasOwnProperty(i) && h.push(i + "=" + a[i]);
             if (f += h.join("&"), d) {
