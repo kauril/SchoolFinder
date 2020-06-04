@@ -52,6 +52,8 @@ const Functions = {
 
     printPrimarySchool: (school, nos) => {
 
+        console.log(nos)
+
         schoolName.innerHTML = '';
         schoolName.innerHTML += `<h3><a target="_blank" href="${school.www_fi}">${school.name_fi}</a></h3>`;
 

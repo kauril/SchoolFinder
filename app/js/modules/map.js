@@ -2,7 +2,8 @@
 
 const MapFunctions = {
 
-	// Function to initialize the map
+    // Function to initialize the map
+    // Map-styles updated 4.6.2020 testing
 
     init: () => {
         const newMap = L.map('mapid').setView([60.1699, 24.9384], 11);
