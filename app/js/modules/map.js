@@ -7,11 +7,12 @@ const MapFunctions = {
     init: () => {
         const newMap = L.map('mapid').setView([60.1699, 24.9384], 11);
 
-        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
             maxZoom: 18,
-            id: 'mapbox.streets',
-            accessToken: 'YOUR ACCESSTOKEN HERE'
+            crossOrigin: null,
+            id: 'mapbox/streets-v11',
+            accessToken: 'pk.eyJ1Ijoia2F1cmlzIiwiYSI6ImNqdXh4cWlsZzBiaWY0ZG5yMnBtZGttbjMifQ.jWGC5H_UMpdzSjBk_Z17aQ'
         }).addTo(newMap);
 
         return newMap;
